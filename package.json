@@ -1,0 +1,17 @@
+{
+  "name": "@eropple/exit-codes",
+  "version": "1.0.0",
+  "description": "A lookup table of commonly used exit codes in Linux and Unix.",
+  "main": "dist",
+  "repository": "https://github.com/eropple/nodejs-exit-codes",
+  "author": "Ed Ropple",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "yarn exec tsc",
+    "prepare": "yarn build"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.4"
+  }
+}
